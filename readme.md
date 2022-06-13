@@ -8,10 +8,12 @@ Looping adalah statement yang mengulang sebuah instruksi hingga kondisi terpenuh
  didalam for loop terdapat tiga tahapan (start, stop, step)
 
 contoh:
+```js
 let angka = 1;
         for (angka; angka <= 10; angka++) {
             console.log(angka);
         }
+ ```       
 
 - while loop > akan menjalankan instruksi pengulangan kondisi bernilai TRUE. while loop di gunakan saat kita tidak tau pasti berapa kali pengulangan.
 
@@ -21,9 +23,11 @@ let angka = 1;
 Function adalah sebuah blok kode dalam sebuah grup untuk menyelesaikan 1 task/1 fitur.
 Saat kita membutuhkan fitur tersebut nantinya, kita bisa kembali menggunakannya.
 contoh:
+```js
 function greeting() {
     return 'Hello world';
 };
+```
 
 greeting = adalah identitas dari function
 parameter = adalah input dari sebuah fungsi
@@ -33,10 +37,13 @@ argument = adalah nilai yang dimasukan ke dalam suatu fungsi
 ## 3. object
 Objek JavaScript dapat menampung properti dan nilai sebanyak apapun dengan tipe data yang beragam.
 contohnya:
+```js
 let orang ={
     nama: 'sarah'
     umur: 23
     pekerjaan: 'programmer'};
+```
+
 
 keteranganya 
 let orang = nama object
@@ -77,7 +84,7 @@ Dengan adanya DOM ini, JavaScript diberi akses untuk membuat HTML menjadi dinami
 Berinteraksi dengan semua HTML event di website.
 
 Di HTML DOM, semua element HTML dari sebuah website dianggap sebagai objek. Dan sama seperti objek JavaScript pada umumnya, objek element HTML di HTML DOM juga mempunyai properti dan method atau yang lebih dikenal dengan istilah DOM Property dan DOM Method.
-
+ 
 Jadi untuk mengubah nilai properti dari element HTML, kita bisa menggunakan DOM Property dan untuk memanggil fungsi dari suatu element HTML, kita bisa menggunakan DOM Method.
 
 
